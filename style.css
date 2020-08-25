@@ -1,0 +1,30 @@
+body { 
+	background: url("https://images3.alphacoders.com/882/thumb-1920-882391.jpg") no-repeat center center fixed;
+	background-size: cover;
+	
+}
+
+
+
+
+
+
+.menu {
+	width: 50%; 
+	height: 2.5vw ;
+	background-color:#000000;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+		
+.menu div {
+	flex-basis: 10rem;
+	text-align: center;
+}
+
+
+
