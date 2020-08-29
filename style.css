@@ -66,3 +66,11 @@ h1{
 	margin-left: 0.5rem;
 }
 
+#AnimeModeButton{
+	position: absolute;
+	left: 0.7rem;
+	bottom: 0.5rem;
+	width: 12rem;
+
+}
+
