@@ -4,3 +4,15 @@ function menuclick(targetname) {
     console.log(targetname,target)
     target.classList.add("currentpage")
 }
+
+let animemodeactive =false
+
+document.getElementById("animemodebutton").addEventListener("click", makeanime);
+
+function makeanime(){
+    if (animemodeactive==false){
+        Array.from(document.getElementsByClassName("modetoggleable")).forEach(function(element) {element.classList.add("animemode")})
+    }else{ Array.from(document.getElementsByClassName("modetoggleable")).forEach(function(element) {element.classList.remove("animemode")})}
+    animemodeactive= !animemodeactive
+}
+

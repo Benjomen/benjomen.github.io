@@ -4,7 +4,7 @@ body {
 	background: url("https://images3.alphacoders.com/882/thumb-1920-882391.jpg") no-repeat center center fixed;
 	background-size: cover;
 	*/
-	background-color: #2C2F33;
+	background-color: #232527;
 }
 h1{ 
 	text-align: center;
@@ -64,5 +64,17 @@ h1{
 	width: 3rem;
 	margin-bottom: 0;
 	margin-left: 0.5rem;
+}
+
+#animemodebutton{
+		position: absolute;
+		bottom: 0;
+		left:1px;
+		width: 170px;
+
+}
+
+.animemode{ 
+	background-color: pink;	
 }
 
