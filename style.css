@@ -1,129 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 body {
-	/* 
-	background: url("https://images3.alphacoders.com/882/thumb-1920-882391.jpg") no-repeat center center fixed;
-	background-size: cover;
-	*/
-	background-color: #232527;
-	overflow: hidden;
+  background-color: #232527;
+  overflow: hidden;
 }
-h1{ 
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	color: rgb(255, 255, 255);
-	text-shadow: 0px 0px 20px  #270344 ;
+
+h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  text-shadow: 0px 0px 20px #270344;
 }
 
 .menu {
-	width: 50%;
-	background-color:#23272A;
-	color:white;
-	margin-left:auto;
-	margin-right:auto;
-	display:flex;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	border-radius: 20px;
-	box-shadow: 0px 0px 10px 3px #270344;
-	margin-top: 2.5rem;
-	margin-bottom: 2.5rem;
+  width: 50%;
+  background-color: #23272A;
+  color: #fff;
+  margin: 2.5rem auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 3px #270344;
 }
-		
+
 .menu div {
-	flex-basis: 10rem;
-	text-align: center;
-	font-size: 1.5rem;
-	padding-top: 0.2rem;
-	padding-bottom: 0.2rem;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	cursor:pointer;
+  flex-basis: 10rem;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0.2rem 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  cursor: pointer;
 }
 
-.Page{ 
-	width: 100%;
-	display: none;
-	color: white;
-	text-align:center;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	font-size: 1.2rem;
+.Page {
+  width: 100%;
+  display: none;
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
 }
 
-.currentpage{ 
-	display: block;
-}
-.social { 
-	display: flex;
-	position: absolute;
-	align-items: flex-end;
-	right: 0.7rem;
-	bottom: 0.5rem;
+.currentpage {
+  display: block;
 }
 
-.social img{ 
-	width: 3rem;
-	margin-bottom: 0;
-	margin-left: 0.5rem;
+.social {
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  right: 0.7rem;
+  bottom: 0.5rem;
 }
 
-#animemodebutton{
-		position: absolute;
-		bottom: -120px;
-		left:1px;
-		width: 170px;
-		transition: bottom 0.75s;
-
+.social img {
+  width: 3rem;
+  margin-left: 0.5rem;
 }
+
+#animemodebutton {
+  position: absolute;
+  bottom: -120px;
+  left: 1px;
+  width: 170px;
+  transition: bottom 0.75s;
+}
+
 #animemodebutton:hover {
-	bottom: 0;
+  bottom: 0;
 }
 
-.animemode{ 
-	background-color: pink;	
-	
+.animemode {
+  background-color: pink;
 }
 
-.animemode > .menu{
-	background-color: rgb(255, 255, 255);
-	box-shadow: 0px 0px 10px 3px white;
-	color: pink;
+.animemode > .menu {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 3px #fff;
+  color: pink;
 }
 
-.animemode >h1{
-	text-shadow: 0px 0px 20px white ;
+.animemode > h1 {
+  text-shadow: 0px 0px 20px #fff;
 }
 
-
-.animemodepictures{
-	position: absolute;
-	visibility: hidden;	
+.animemodepictures {
+  position: absolute;
+  visibility: hidden;
 }
 
-#kumikoimg{
-	bottom: 3px;
-	top: 0;
-	left: 0;
-	margin: auto;
+#kumikoimg {
+  bottom: 3px;
+  top: 0;
+  left: 0;
+  margin: auto;
 }
 
-#Rinimg{
-	width: 40%;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: auto;
+#Rinimg {
+  width: 40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
-#chikaimg{
-	bottom: 0px;
-	top: 0;
-	right: 0;
-	margin: auto;
+#chikaimg {
+  bottom: 0;
+  top: 0;
+  right: 0;
+  margin: auto;
 }
 
-#AboutMe {  
-	max-width: 65%;
-	margin-left: auto;
-	margin-right: auto;
-  }
+#AboutMe {
+  max-width: 65%;
+  margin: 0 auto;
+}
